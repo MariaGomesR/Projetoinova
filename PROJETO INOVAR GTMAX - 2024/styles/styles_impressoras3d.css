@@ -1,0 +1,720 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+ 
+:root{
+    --back-cor: #000000;
+    --rodape-cor:#464340;
+    --letra-cor: white;
+    --letrainfo-cor:white;
+    --letrasNEON-cor: #7fb8ff;
+    --corback-signup: #436996;
+    --corblocos: #3e3d3d;
+ 
+    --fontes-NEON:'Big Shoulders Display', sans-serif;
+    --fontes-cabecalho:'Montserrat Light', sans-serif;
+ 
+    --fonte-rodape1: 'League Gothic', sans-serif;
+    --fonte-lateral:'Montserrat Classic', sans-serif;
+ 
+    --fonte-infos:'Glacial Indifference', sans-serif;
+    --fonte-PROCORE: 'Glegoo', sans-serif;
+ 
+   
+}
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    background-color: var(--back-cor);
+    color: var(--letra-cor);
+}
+ 
+.cabecalho{
+    width: 1200px;
+    margin: 30px auto 50px auto;
+    text-decoration: none;
+}
+ 
+ 
+.Home{
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--letra-cor);
+    font-family: var(--fontes-cabecalho);
+    font-weight: 100;
+    position: absolute;
+    top: 8%;
+    left: 5%;
+}
+ 
+.Home:hover{
+    text-decoration-line: underline;
+    text-decoration-color: var(--letrasNEON-cor);
+    color: var(--letrasNEON-cor);
+}
+ 
+.Impressoras3D{
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--letra-cor);
+    color: var(--letra-cor);
+    font-family: var(--fontes-cabecalho);
+    font-weight: 100;
+    position: absolute;
+    left: 15%;
+    top: 8%;
+}
+ 
+.Impressoras3D:hover{
+    text-decoration-line: underline;
+    text-decoration-color: var(--letrasNEON-cor);
+    color: var(--letrasNEON-cor);
+}
+ 
+.Filamentos{
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--letra-cor);
+    font-family: var(--fontes-cabecalho);
+    font-weight: 100;
+    position: absolute;
+    left: 30%;
+    top: 8%;
+}
+ 
+.Filamentos:hover{
+    text-decoration-line: underline;
+    text-decoration-color: var(--letrasNEON-cor);
+    color: var(--letrasNEON-cor);
+}
+ 
+.Componentes{
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--letra-cor);
+    font-family: var(--fontes-cabecalho);
+    font-weight: 100;
+    position: absolute;
+    left: 60%;
+    top: 8%;
+    z-index: 1;
+}
+ 
+.Componentes:hover{
+    text-decoration-line: underline;
+    text-decoration-color: var(--letrasNEON-cor);
+    color: var(--letrasNEON-cor);
+}
+ 
+.Acessorios{
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--letra-cor);
+    font-family: var(--fontes-cabecalho);
+    font-weight: 100;
+    position: absolute;
+    left: 75%;
+    top: 8%;
+    z-index: 1;
+}
+ 
+.Acessorios:hover{
+    text-decoration-line: underline;
+    text-decoration-color: var(--letrasNEON-cor);
+    color: var(--letrasNEON-cor);
+}
+ 
+.SignUp{
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--letra-cor);
+    font-family: var(--fontes-cabecalho);
+    font-weight: 100;
+    position: absolute;
+    left: 90%;
+    top: 7%;
+    border: 3px solid var(--corback-signup);
+    padding: 8px 15px;
+    border-radius: 25px;
+    text-align:center ;
+    background-color: var(--corback-signup);
+}
+ 
+.SignUp:hover{
+    background-color: var(--letrasNEON-cor);
+    border: var(--letrasNEON-cor);
+   
+}
+ 
+.Logo{
+    align-items: center;
+    position: absolute;
+    left: 42%;
+    top: 3%;
+}
+ 
+.Carrinho{
+    position: absolute;
+    left: 87%;
+    top: 8%;
+ 
+}
+ 
+.BarraPesquisa{
+    position: absolute;
+    left: 84%;
+    top: 8%;
+ 
+}
+ 
+.bloco1{
+    border: 10px solid var(--corblocos);
+    padding: 280px 250px;
+    border-radius: 25px;
+    z-index: auto;
+    background-color: var(--corblocos);
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+ 
+.bloco2{
+    border: 10px solid var(--corblocos);
+    padding: 280px 250px;
+    border-radius: 25px;
+    z-index: auto;
+    background-color: var(--corblocos);
+    position: absolute;
+    top: 25%;
+    left: 55%;
+}
+ 
+.bloco3{
+    border: 10px solid var(--corblocos);
+    padding: 280px 250px;
+    border-radius: 25px;
+    z-index: auto;
+    background-color: var(--corblocos);
+    position: absolute;
+    top: 130%;
+    left: 8%;
+}
+ 
+.bloco4{
+    border: 10px solid var(--corblocos);
+    padding: 280px 250px;
+    border-radius: 25px;
+    z-index: auto;
+    background-color: var(--corblocos);
+    position: absolute;
+    top: 130%;
+    left: 55%;
+}
+ 
+.bloco5{
+    border: 10px solid var(--corblocos);
+    padding: 280px 250px;
+    border-radius: 25px;
+    z-index: auto;
+    background-color: var(--corblocos);
+    position: absolute;
+    top: 235%;
+    left: 8%;
+}
+ 
+.bloco6{
+    border: 10px solid var(--corblocos);
+    padding: 280px 250px;
+    border-radius: 25px;
+    z-index: auto;
+    background-color: var(--corblocos);
+    position: absolute;
+    top: 235%;
+    left: 55%;
+}
+ 
+.descimpressora1{
+    font-family: var(--fontes-cabecalho);
+    font-size: 25px;
+    position: absolute;
+    top: 90%;
+    left: 13%;
+    z-index: 1;
+}
+ 
+.precoimpressora1{
+    font-family: var(--fontes-cabecalho);
+    font-size: 30px;
+    position: absolute;
+    top: 98%;
+    left: 13%;
+    z-index: 1;
+   
+}
+ 
+.descimpressora2{
+    font-family: var(--fontes-cabecalho);
+    font-size: 25px;
+    position: absolute;
+    top: 86%;
+    left: 60%;
+    z-index: 1;
+}
+ 
+.precoimpressora2{
+    font-family: var(--fontes-cabecalho);
+    font-size: 30px;
+    position: absolute;
+    top: 97%;
+    left: 60%;
+    z-index: 1;
+   
+}
+ 
+ 
+ 
+.descimpressora3{
+    font-family: var(--fontes-cabecalho);
+    font-size: 25px;
+    position: absolute;
+    top: 195%;
+    left: 11.5%;
+    z-index: 1;
+}
+ 
+.precoimpressora3{
+    font-family: var(--fontes-cabecalho);
+    font-size: 30px;
+    position: absolute;
+    top: 202%;
+    left: 11.5%;
+    z-index: 1;
+}
+ 
+.descimpressora4{
+    font-family: var(--fontes-cabecalho);
+    font-size: 25px;
+    position: absolute;
+    top: 192%;
+    left: 60%;
+    z-index: 1;
+}
+ 
+.precoimpressora4{
+    font-family: var(--fontes-cabecalho);
+    font-size: 30px;
+    position: absolute;
+    top: 202%;
+    left: 60%;
+    z-index: 1;
+   
+}
+ 
+.descimpressora5{
+    font-family: var(--fontes-cabecalho);
+    font-size: 25px;
+    position: absolute;
+    top: 298%;
+    left: 12%;
+    z-index: 1;
+}
+ 
+.precoimpressora5{
+    font-family: var(--fontes-cabecalho);
+    font-size: 30px;
+    position: absolute;
+    top: 308%;
+    left: 12%;
+    z-index: 1;
+   
+}
+ 
+.descimpressora6{
+    font-family: var(--fontes-cabecalho);
+    font-size: 25px;
+    position: absolute;
+    top: 298%;
+    left: 58%;
+    z-index: 1;
+}
+ 
+.precoimpressora6{
+    font-family: var(--fontes-cabecalho);
+    font-size: 30px;
+    position: absolute;
+    top: 308%;
+    left: 58%;
+    z-index: 1;
+}
+ 
+.add1{
+    border: 3px solid var(--corback-signup);
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-align:center ;
+    background-color: var(--corback-signup);
+    z-index: 1;
+    position: absolute;
+    font-size: 15px;
+    font-family: var(--fontes-cabecalho);
+    top: 97%;
+    left: 31%;
+}
+
+.add1:hover{
+    background-color: var(--letrasNEON-cor);
+    border: var(--letrasNEON-cor);
+}
+ 
+.add2{
+    border: 3px solid var(--corback-signup);
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-align:center ;
+    background-color: var(--corback-signup);
+    z-index: 1;
+    position: absolute;
+    font-size: 15px;
+    font-family: var(--fontes-cabecalho);
+    top: 97%;
+    left: 78%;
+}
+.add2:hover{
+    background-color: var(--letrasNEON-cor);
+    border: var(--letrasNEON-cor);
+} 
+
+.add3{
+    border: 3px solid var(--corback-signup);
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-align:center ;
+    background-color: var(--corback-signup);
+    z-index: 1;
+    position: absolute;
+    font-size: 15px;
+    font-family: var(--fontes-cabecalho);
+    top: 201%;
+    left: 34%;
+}
+
+.add3:hover{
+    background-color: var(--letrasNEON-cor);
+    border: var(--letrasNEON-cor);
+}
+ 
+.add4{
+    border: 3px solid var(--corback-signup);
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-align:center ;
+    background-color: var(--corback-signup);
+    z-index: 1;
+    position: absolute;
+    font-size: 15px;
+    font-family: var(--fontes-cabecalho);
+    top: 201%;
+    left: 81%;
+}
+
+.add4:hover{
+    background-color: var(--letrasNEON-cor);
+    border: var(--letrasNEON-cor);
+}
+ 
+.add5{
+    border: 3px solid var(--corback-signup);
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-align:center ;
+    background-color: var(--corback-signup);
+    z-index: 1;
+    position: absolute;
+    font-size: 15px;
+    font-family: var(--fontes-cabecalho);
+    top: 307%;
+    left: 31%;
+}
+
+.add5:hover{
+    background-color: var(--letrasNEON-cor);
+    border: var(--letrasNEON-cor);
+}
+ 
+.add6{
+    border: 3px solid var(--corback-signup);
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-align:center ;
+    background-color: var(--corback-signup);
+    z-index: 1;
+    position: absolute;
+    font-size: 15px;
+    font-family: var(--fontes-cabecalho);
+    top: 307%;
+    left: 81%;
+}
+ 
+.add6:hover{
+    background-color: var(--letrasNEON-cor);
+    border: var(--letrasNEON-cor);
+}
+ 
+.corem4{
+    position: absolute;
+    left: 16%;
+    width: 330px;
+    z-index: 1;
+    top: 30%;
+}
+ 
+.coreh5{
+    width: 300px;
+    position: absolute;
+    left: 64%;
+    z-index: 1;
+    top: 24%;
+}
+ 
+.laranjinha{
+    width: 300px;
+    position: absolute;
+    left: 15%;
+    z-index: 1;
+    top: 130%;
+}
+ 
+.imptela{
+    width: 330px;
+    position: absolute;
+    left: 62%;
+    z-index: 1;
+    top: 130%;
+}
+ 
+.impfil{
+    width: 330px;
+    position: absolute;
+    left: 15%;
+    z-index: 1;
+    top: 233%;
+}
+ 
+.transformer{
+    width: 350px;
+    position: absolute;
+    left: 61%;
+    z-index: 1;
+    top: 240%;
+}
+ 
+ 
+.titulo{
+    font-family: var(--fonte-lateral);
+    color: var(--letra-cor);
+    position: absolute;
+    top: 15%;
+    font-weight: bold;
+    left: 39%;
+}
+ 
+.linha{
+    position: absolute;
+    top:21% ;
+    left: 29.5%;
+}
+ 
+.ret{
+    position: absolute;
+    top: 203%;
+    left: 9%;
+    z-index: -1;
+}
+ 
+.rodape{
+    position: absolute;
+    top: 340%;
+    border: 3px solid var(--rodape-cor);
+    background-color: var(--rodape-cor);
+    padding: 295px 758px;
+    border-radius: 2px;
+}
+ 
+.logorodape{
+    position: absolute;
+    top: 350%;
+    left: 10%;
+}
+ 
+.pague{
+    position: absolute;
+    left: 18%;
+    top: 370%;
+    font-size: 35px;
+    font-family: var(--fonte-rodape1);
+}
+ 
+.pagamentos{
+    position: absolute;
+    top: 380%;
+    left: 10%;
+}
+ 
+.conteudo{
+    position: absolute;
+    left: 80%;
+    top: 355%;
+    font-size: 40px;
+    font-family: var(--fonte-rodape1);
+}
+ 
+.fale{
+    text-decoration: none;
+    color: var(--letrainfo-cor);
+    position: absolute;
+    left: 80.3%;
+    top: 365%;
+    font-family: var(--fontes-cabecalho);
+    font-size: 15px;
+}
+ 
+ 
+.politica{
+    text-decoration: none;
+    color: var(--letrainfo-cor);
+    position: absolute;
+    left: 78.2%;
+    top: 370%;
+    font-family: var(--fontes-cabecalho);
+    font-size: 15px;
+}
+ 
+.trocas{
+    text-decoration: none;
+    color: var(--letrainfo-cor);
+    position: absolute;
+    left: 79.5%;
+    top: 375%;
+    font-family: var(--fontes-cabecalho);
+    font-size: 15px;
+}
+ 
+.suporte{
+    text-decoration: none;
+    color: var(--letrainfo-cor);
+    position: absolute;
+    left: 79.9%;
+    top: 380%;
+    font-family: var(--fontes-cabecalho);
+    font-size: 15px;
+}
+ 
+.atendimento{
+    position: absolute;
+    left: 49.6%;
+    top: 355%;
+    font-size: 40px;
+    font-family: var(--fonte-rodape1);
+}
+ 
+.telefone{
+    position: absolute;
+    left: 50%;
+    top: 366%;
+    font-size: 15px;
+    font-family: var(--fontes-cabecalho);
+ 
+}
+ 
+.tel{
+    position: absolute;
+    left: 47.5%;
+    top: 365.5%;
+}
+ 
+.wpp{
+    position: absolute;
+    left: 48%;
+    top: 371%;
+    font-size: 15px;
+    font-family: var(--fontes-cabecalho);
+ 
+}
+ 
+.wppimg{
+    position: absolute;
+    left: 46%;
+    top: 371%;
+}
+ 
+.email{
+    position: absolute;
+    left: 46.4%;
+    top: 376%;
+    font-size: 15px;
+    font-family: var(--fontes-cabecalho);
+}
+ 
+.mail{
+    position: absolute;
+    left: 44.5%;
+    top: 376%;
+ 
+}
+ 
+.info{
+    position: absolute;
+    top: 420%;
+    left: 15.5%;
+    font-size: 15px;
+    font-family: var(--fontes-cabecalho);
+}
+
+.estrelacheia{
+    top: 200px;
+    right: 59%;
+    z-index: 1;
+    position: absolute;
+}
+
+.estrelavazada_1{
+    top: 200px;
+    left: 86%;
+    z-index: 1;
+    position: absolute;
+}
+
+.estrelavazada_2{
+    top: 133%;
+    left: 86%;
+    z-index: 1;
+    position: absolute;
+}
+
+.estrelavazada_3{
+    top: 133%;
+    right: 59%;
+    z-index: 1;
+    position: absolute;
+}
+
+.estrelavazada_4{
+    top: 238%;
+    left: 86%;
+    z-index: 1;
+    position: absolute;
+}
+
+.estrelavazada_5{
+    top: 238%;
+    right: 59%;
+    z-index: 1;
+    position: absolute;
+}

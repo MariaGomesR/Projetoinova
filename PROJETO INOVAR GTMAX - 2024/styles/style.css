@@ -1,0 +1,433 @@
+/* IMPORTAR FONTES E NOMEAR ELAS*/
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/glacial-indifference-2'); 
+@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+:root{
+    --back-cor: #000000;
+    --rodape-cor:#464340;
+    --letra-cor: white;
+    --letrainfo-cor:white;
+    /* as informações tem transparência de 70% */
+    --letrasNomecentraleLaterais-cor: #1f4c85;
+    --letrasNEON-cor: #7fb8ff;
+    /* inclui o GTMAX 3D central, A3V3 lado direito e esquerdo e o PROCORE 
+    SEM O IMPRESSORA 3D** */
+    /* o GTMAX 3D central, A3V3 direito e esquerdo tem efeito NEON de
+    75% */
+    --corback-signup: #436996;
+
+    --fontes-NEON:'Big Shoulders Display', sans-serif;
+    --fontes-cabecalho:'Montserrat Light', sans-serif;
+    /* USA A LIGHT */
+    --fonte-rodape1: 'League Gothic', sans-serif;
+    --fonte-lateral:'Montserrat Classic', sans-serif;
+    /* A MONTSERRAT USA BOLD*/
+    --fonte-infos:'Glacial Indifference', sans-serif;
+    --fonte-PROCORE: 'Glegoo', sans-serif;
+
+    /* pra informações sobre font-weigth, entra nos links de import*/
+}
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    background-color: var(--back-cor);
+    color: var(--letra-cor);
+}
+
+.cabecalho{
+    width: 1200px;
+    margin: 30px auto 50px auto;
+    text-decoration: none;
+}
+
+
+.Home{
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--letra-cor);
+    font-family: var(--fontes-cabecalho);
+    font-weight: 100;
+    position: absolute;
+    top: 8%;
+    left: 5%;
+}
+
+.Home:hover{
+    text-decoration-line: underline;
+    text-decoration-color: var(--letrasNEON-cor);
+    color: var(--letrasNEON-cor);
+}
+
+.Impressoras3D{
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--letra-cor);
+    color: var(--letra-cor);
+    font-family: var(--fontes-cabecalho);
+    font-weight: 100;
+    position: absolute;
+    left: 15%;
+    top: 8%;
+}
+
+.Impressoras3D:hover{
+    text-decoration-line: underline;
+    text-decoration-color: var(--letrasNEON-cor);
+    color: var(--letrasNEON-cor);
+}
+
+.Filamentos{
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--letra-cor);
+    font-family: var(--fontes-cabecalho);
+    font-weight: 100;
+    position: absolute;
+    left: 30%;
+    top: 8%;
+}
+
+.Filamentos:hover{
+    text-decoration-line: underline;
+    text-decoration-color: var(--letrasNEON-cor);
+    color: var(--letrasNEON-cor);
+}
+
+.Componentes{
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--letra-cor);
+    font-family: var(--fontes-cabecalho);
+    font-weight: 100;
+    position: absolute;
+    left: 60%;
+    top: 8%;
+    z-index: 1;
+}
+
+.Componentes:hover{
+    text-decoration-line: underline;
+    text-decoration-color: var(--letrasNEON-cor);
+    color: var(--letrasNEON-cor);
+}
+
+.Acessorios{
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--letra-cor);
+    font-family: var(--fontes-cabecalho);
+    font-weight: 100;
+    position: absolute;
+    left: 75%;
+    top: 8%;
+    z-index: 1;
+}
+
+.Acessorios:hover{
+    text-decoration-line: underline;
+    text-decoration-color: var(--letrasNEON-cor);
+    color: var(--letrasNEON-cor);
+}
+
+.SignUp{
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--letra-cor);
+    font-family: var(--fontes-cabecalho);
+    font-weight: 100;
+    position: absolute;
+    left: 90%;
+    top: 7%;
+    border: 3px solid var(--corback-signup);
+    padding: 8px 15px;
+    border-radius: 25px;
+    text-align:center ;
+    background-color: var(--corback-signup);
+}
+
+.SignUp:hover{
+    background-color: var(--letrasNEON-cor);
+    border: var(--letrasNEON-cor);
+    
+}
+
+.Logo{
+    align-items: center;
+    position: absolute;
+    left: 42%;
+    top: 3%;
+}
+
+
+.Laterais{
+    text-decoration: none;
+    font-size: 13.2px;
+    font-family: var(--letrasNomecentraleLaterais-cor);
+}
+
+.A3V3_grande{
+    text-decoration: none;
+    font-family: var(--fontes-NEON);
+    font-size: 105px;
+    font-weight: 700;
+    color: var(--letrasNEON-cor);
+    text-shadow: 0vw 0vw 1vw var(--letrasNomecentraleLaterais-cor), 0 0 2vw var(--letrasNomecentraleLaterais-cor), 0 0 2vw var(--letra-cor), 0 0 2vw var(--letrasNomecentraleLaterais-cor);
+    position: absolute;
+    left: 38%;
+    top: 20%;
+}
+
+.Procore{
+    text-decoration: none;
+    font-family: var(--fonte-PROCORE);
+    font-size: 60px;
+    font-weight: 400;
+    color: var(--letrasNomecentraleLaterais-cor);
+    position: absolute;
+    left: 15%;
+    top: 22%;
+}
+
+.texto{
+    font-family: var(--fonte-lateral);
+    color: var(--letrainfo-cor);
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    left: 15%;
+    right: 45%;
+    z-index: 10;
+    opacity: 70%;
+    top: 40%;
+}
+
+
+.Carrinho{
+    position: absolute;
+    left: 87%;
+    top: 8%;
+
+}
+
+.BarraPesquisa{
+    position: absolute;
+    left: 84%;
+    top: 8%;
+
+}
+
+.gradiente{
+    position: absolute;
+    z-index: -1;
+    top: -12%;
+    left: 10%;
+    height: 70%;
+    width: 70%;
+}
+
+
+.links{
+    position: absolute;
+    left: 45%;
+    top: 95%;
+}
+
+.Insta{
+    position: relative;
+    right: 40%;
+}
+
+.Youtube{
+    position: relative;
+    left: 80%;
+}
+
+
+.compre{
+    font-family: var(--fonte-infos);
+    font-weight: 700;
+    color: var(--letrainfo-cor);
+    text-decoration: none;
+    position: absolute;
+    left: 18%;
+    top:70%;
+    font-size: 25px;
+    border: 3px solid var(--corback-signup);
+    background-color: var(--corback-signup);
+    padding: 8px 15px;
+    border-radius: 25px;
+    text-align:center ;
+}
+
+.compre:hover{
+    background-color: var(--letrasNEON-cor);
+    border: var(--letrasNEON-cor);
+}
+
+.saibamais{
+    font-family: var(--fonte-infos);
+    font-weight: 700;
+    color: var(--letrainfo-cor);
+    text-decoration: none;
+    position: absolute;
+    left: 35%;
+    top:70%;
+    font-size: 25px;
+    border: 3px solid var(--corback-signup);
+    background-color: var(--corback-signup);
+    padding: 8px 15px;
+    border-radius: 25px;
+    text-align:center ;
+}
+
+.saibamais:hover{
+    background-color: var(--letrasNEON-cor);
+    border: var(--letrasNEON-cor);
+}
+
+
+.rodape{
+    position: absolute;
+    top: 110%;
+    border: 3px solid var(--rodape-cor);
+    background-color: var(--rodape-cor);
+    padding: 270px 757px;
+    border-radius: 2px;
+}
+
+.pague{
+    position: absolute;
+    left: 18%;
+    top: 140%;
+    font-size: 35px;
+    font-family: var(--fonte-rodape1);
+}
+
+.logorodape{
+    position: absolute;
+    top: 115%;
+    left: 10%;
+}
+
+.pagamentos{
+    position: absolute;
+    top: 147.5%;
+    left: 10%;
+}
+
+.conteudo{
+    position: absolute;
+    left: 80%;
+    top: 120%;
+    font-size: 35px;
+    font-family: var(--fonte-rodape1);
+}
+
+.fale{
+    text-decoration: none;
+    color: var(--letrainfo-cor);
+    position: absolute;
+    left: 80.3%;
+    top: 128%;
+    font-family: var(--fontes-cabecalho);
+    font-size: 15px;
+}
+
+.politica{
+    text-decoration: none;
+    color: var(--letrainfo-cor);
+    position: absolute;
+    left: 78.2%;
+    top: 134%;
+    font-family: var(--fontes-cabecalho);
+    font-size: 15px;
+}
+
+.trocas{
+    text-decoration: none;
+    color: var(--letrainfo-cor);
+    position: absolute;
+    left: 79.5%;
+    top: 140%;
+    font-family: var(--fontes-cabecalho);
+    font-size: 15px;
+}
+
+.suporte{
+    text-decoration: none;
+    color: var(--letrainfo-cor);
+    position: absolute;
+    left: 79.9%;
+    top: 146%;
+    font-family: var(--fontes-cabecalho);
+    font-size: 15px;
+}
+
+.atendimento{
+    position: absolute;
+    left: 49.6%;
+    top: 120%;
+    font-size: 35px;
+    font-family: var(--fonte-rodape1);
+}
+
+.telefone{
+    position: absolute;
+    left: 48.2%;
+    top: 128%;
+    font-size: 15px;
+    font-family: var(--fontes-cabecalho);
+
+}
+
+.tel{
+    position: absolute;
+    left: 46.2%;
+    top: 127.5%;
+}
+
+.wpp{
+    position: absolute;
+    left: 47.5%;
+    top: 134%;
+    font-size: 15px;
+    font-family: var(--fontes-cabecalho);
+
+}
+
+.wppimg{
+    position: absolute;
+    left: 46%;
+    top: 133.5%;
+}
+
+
+.email{
+    position: absolute;
+    left: 46.4%;
+    top: 140%;
+    font-size: 15px;
+    font-family: var(--fontes-cabecalho);
+}
+
+.mail{
+    position: absolute;
+    left: 44.5%;
+    top: 140%;
+
+}
+
+.info{
+    position: absolute;
+    top: 180%;
+    left: 15.5%;
+    font-size: 15px;
+    font-family: var(--fontes-cabecalho);
+}

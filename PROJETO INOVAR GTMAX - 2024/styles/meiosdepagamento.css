@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --back-cor:#99acff;
+    --segunda-cor: #1f4c85;
+    --cor-letra: black;
+
+    --fontes-topico: 'Montserrat Classic', sans-serif;
+    --fonte-pequena: 'Montserrat Light', sans-serif;
+
+}
+
+.retangulo{
+    position: block;
+}
+
+.meios{
+    font-family: var(--fontes-topico);
+    font-size: 20px;
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    color: var(--cor-letra);
+    font-weight: 800;
+}
+
+.cartoes{
+    font-family: var(--fontes-topico);
+    font-size: 20px;
+    position: absolute;
+    top: 12.5%;
+    left: 2%;
+    color: var(--cor-letra);
+    font-weight: 800;
+}
+
+.visa{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+
+.mastercard{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+.hipercard{
+    position: absolute;
+    top: 20%;
+    left: 13.5%;
+
+}
+
+.american{
+    position: absolute;
+    top: 20%;
+    left: 19.5%;
+}
+
+.par1{
+    font-family: var(--fonte-pequena);
+    font-size: 15px;
+    position: absolute;
+    left: 2%;
+    top:26% ;
+}
+
+.par2{
+    font-family: var(--fonte-pequena);
+    font-size: 15px;
+    position: absolute;
+    left: 2%;
+    top:29% ;
+}
+
+.par3{
+    font-family: var(--fonte-pequena);
+    font-size: 15px;
+    position: absolute;
+    left: 2%;
+    top:32% ;
+}
+
+.par4{
+    font-family: var(--fonte-pequena);
+    font-size: 15px;
+    position: absolute;
+    left: 2%;
+    top:35% ;
+}
+
+.par5{
+    font-family: var(--fonte-pequena);
+    font-size: 15px;
+    position: absolute;
+    left: 2%;
+    top:38% ;
+}
+
+.par6{
+    font-family: var(--fonte-pequena);
+    font-size: 15px;
+    position: absolute;
+    left: 2%;
+    top:41%;
+}
+
+.par7{
+    font-family: var(--fonte-pequena);
+    font-size: 15px;
+    position: absolute;
+    left: 20%;
+    top:26%;
+}
+
+.par8{
+    font-family: var(--fonte-pequena);
+    font-size: 15px;
+    position: absolute;
+    left: 20%;
+    top:29% ;
+}
+
+.par9{
+    font-family: var(--fonte-pequena);
+    font-size: 15px;
+    position: absolute;
+    left: 20%;
+    top:32% ;
+}
+
+.par10{
+    font-family: var(--fonte-pequena);
+    font-size: 15px;
+    position: absolute;
+    left: 20%;
+    top:35% ;
+}
+
+.par11{
+    font-family: var(--fonte-pequena);
+    font-size: 15px;
+    position: absolute;
+    left: 20%;
+    top:38% ;
+}
+
+.par12{
+    font-family: var(--fonte-pequena);
+    font-size: 15px;
+    position: absolute;
+    left: 20%;
+    top:41%;
+}
+
+.boleto{
+    font-family: var(--fontes-topico);
+    font-size: 20px;
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    color: var(--cor-letra);
+    font-weight: 800;
+}
+
+.bolet{
+    font-family: var(--fontes-topico);
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    color: var(--cor-letra);
+    font-weight: 800;
+}
+
+.valorboleto{
+    font-family: var(--fonte-pequena);
+    font-size:15px ;
+    position: absolute;
+    top: 52%;
+    left: 2%;
+    color: var(--cor-letra);
+}
+
+
+.pix{
+    font-family: var(--fontes-topico);
+    font-size: 20px;
+    position: absolute;
+    top: 55%;
+    left: 2%;
+    color: var(--cor-letra);
+    font-weight: 800;
+
+}
+
+.valorpix{
+    font-family: var(--fonte-pequena);
+    font-size:15px ;
+    position: absolute;
+    top: 60%;
+    left: 2%;
+    color: var(--cor-letra);
+}
+
+
+
+
+
+

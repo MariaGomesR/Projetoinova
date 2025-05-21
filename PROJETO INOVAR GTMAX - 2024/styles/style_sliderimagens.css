@@ -1,0 +1,74 @@
+:root{
+    --corback-signup: #436996;
+}
+
+
+.slider_imagens{
+    display: block;
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    left: 15%;
+
+}
+
+.slider_imagens li{
+    list-style: none;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+}
+
+.slider_imagens img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.slider_imagens input {
+    display: none;
+}
+
+.slider_imagens label {
+    background-color: var(--corback-signup);
+    top: 50%;
+    cursor: pointer;
+    display: block;
+    height: 15px;
+    position: relative;
+    left: 80%;
+    width: 15px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.slider_imagens li:nth-child(1) label {
+    left: 30%;
+}
+
+.slider_imagens li:nth-child(2) label {
+    left: 20%;
+}
+
+.slider_imagens li:nth-child(3) label {
+    left: 40%;
+}
+
+.slider_imagens li:nth-child(4) label {
+    left: 60%;
+}
+
+
+.slider_imagens img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider_imagens li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
